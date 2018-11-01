@@ -27,7 +27,7 @@ set_convoys = 15
 
 1939.1.1 = {
 
-	add_political_power = 1198
+	add_political_power = 1200
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -147,7 +147,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		exiled
+		#
 	}
 }
 

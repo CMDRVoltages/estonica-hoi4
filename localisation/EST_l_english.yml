@@ -299,7 +299,7 @@
  EST_alex_nirk:0 "Alex Nirk"
  EST_juhan_tuuling:0 "Juhan Tuuling"
  
- kaitseliit:0 "Eesti Kaitseliit"
+ EST_kaitseliit:0 "Eesti Kaitseliit"
  seeking_our_secrets:0 "Seeking Our Secrets"
  claimed_our_lands:0 "Claimed Our Territory"
  democratic_influence:0 "Democratic Influence"
@@ -308,7 +308,7 @@
  more_jobs:0 "More Jobs"
  force_the_unification:0 "Force The Unification"
  unmotivated_soldiers:0 "Unmotivated soldiers"
- economic_crises:0 "Economic Crises"
+ EST_the_great_depression:0 "The Great Depression"
  exporting_equipment:0 "Exporting Equipment"
  political_manipulation:0 "Political Manipulation"
  refugees:0 "Refugees"
@@ -560,3 +560,6 @@
  
  NK:0 "Noored Kotkad"
  NK_desc:0 "The affiliated organisations of the Defence League combine more than 21,000 volunteers, in all, and include the Estonian Defence League’s women’s corps Naiskodukaitse, the Estonian Defence League’s boys’ corps Noored Kotkad, and the Estonian Defence League’s girls’ corps Kodutütred."
+ 
+ #Leaders
+ POLITICS_KONSTANTIN_PATS_DESC:0 ""

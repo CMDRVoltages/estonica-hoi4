@@ -1,8 +1,8 @@
 spriteTypes = {	
 
 	spriteType = {
-		name = "GFX_idea_kaitseliit"
-		texturefile = "gfx/interface/ideas/idea_kaitseliit.dds"
+		name = "GFX_idea_EST_kaitseliit"
+		texturefile = "gfx/interface/ideas/EST_idea_kaitseliit.dds"
 	}
 
 	spriteType = {

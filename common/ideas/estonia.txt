@@ -816,7 +816,7 @@ ideas = {
 		
 		viru_chemistry_group = {
 			
-			picture = viru_chemistry_group
+			picture = generic_refining_concern_1
 			
 			allowed = {
 				original_tag = EST

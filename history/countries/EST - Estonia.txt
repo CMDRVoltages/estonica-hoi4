@@ -8,8 +8,8 @@ set_war_support = 0.37
 
 add_ideas = {
 	EST_kaitseliit
-	EST_the_great_depression
 	EST_treaty_of_tartu
+	EST_the_great_depression
 	outdated_military
 }
 

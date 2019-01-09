@@ -546,13 +546,14 @@
  #Parties
  EST_monarchy:0 "Monarchy"
  EST_monarchy_long:0 "Monarchy"
- EST_neutrality_party:0 "Isamaaliit"
+ EST_neutrality_party:0 "IML"
+ EST_neutrality_party_long:0 "Isamaaliit"
  EST_communism_party:0 "EKP"
  EST_communism_party_long:0 "Eesti Kommunistlik Partei"
  EST_democratic_party:0 "RKE"
  EST_democratic_party_long:0 "Rahvuslik Keskerakond"
- EST_fascism_party:0 "Vapsid"
- EST_fascism_party_long:0 "Vabadussõdalased"
+ EST_fascism_party:0 "EVL"
+ EST_fascism_party_long:0 "Eesti Vabadussõjalaste Liit"
 
  #Misc
  EST_GER_Units:0 "You will receive the §YXXVII advanced infantry Corps§! from Germany, consisting of 1 Infantry Divisions and 1 SS-Division with all the extra equipment."

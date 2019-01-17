@@ -116,7 +116,8 @@
  est.48.t:0 "The Fall of Kaunas"
  est.48.d:0 "Estonia has overwhelmed the defenders of Lithuania and put them under our control. Kaunas has fallen to the Estonian invaders, forces of the Estonian army has taken Kaunas from its Lithuanian defenders.\n\nAlthough defenses were strong on the roads across the northern parts of the country, Kaunas was left relatively defenseless as the Lithuanians evacuated the city in the face of getting surrounded by foreign forces.\n\nAlthough the leading government officials have escaped, the country is rapidly falling to the Estonian advance."
 
- #focus
+ #Focus Tree
+ 
  EST_the_four_year_plan:0 "The Two Year Plan"
  EST_the_four_year_plan_desc:0 "Our industry and agriculture are lacking beahind the production we had before the great depression. Let us start improving these by starting the 2 year plan."
  EST_tallinn_tartu_highways:0 "Tallinn-Tartu Highways"
@@ -299,9 +300,11 @@
  EST_alex_nirk:0 "Alex Nirk"
  EST_juhan_tuuling:0 "Juhan Tuuling"
  
+ #National Spirits
+ 
  EST_kaitseliit:0 "Eesti Kaitseliit"
- EST_treaty_of_tartu:0 "Treaty of Tartu"
- EST_treaty_of_tartu_desc:0 "At the end of the outbreak of World War I, the Russian Empire fell into revolution and civil war. As a part of this larger conflict, the Estonians declared independence from Russia and won their freedom during the Estonian War of Independence. The new Communist Russian government acknowledged Estonia's freedom in the 1920 Treaty of Tartu. The treaty established the border between Estonia and Russian Soviet Federative Socialist Republic, affirmed the right of Estonian people to return to Estonia and Russian people to return to Russia and required that Estonian movable property evacuated to Russia in World War I be returned to Estonia. Russian Soviet Federative Socialist Republic also agreed to absolve all Russian Imperial debt and to pay Estonia 15 million gold rubles, a share from the gold reserves of the former Russian Empire. Additionally Russian Soviet Federative Socialist Republic agreed to grant concessions to exploit one million hectares of Russian forest land and to build a railway line from the Estonian border to Moscow. In return, Estonia allowed the Russian Soviet Federative Socialist Republic to build a free port at Tallinn or some other harbour and to erect a power station on the Narva River. After the signing, Soviet Russia did not fulfill several points of the treaty."
+ EST_felled_by_a_flea:0 "Felled By a Flea"
+ EST_felled_by_a_flea_desc:0 ""
  seeking_our_secrets:0 "Seeking Our Secrets"
  claimed_our_lands:0 "Claimed Our Territory"
  democratic_influence:0 "Democratic Influence"
@@ -337,6 +340,7 @@
  glorious_memories:0 "Authoritarian Regime"
 
  #Opinion Modifiers
+ 
  closed_borders:0 "Closed Borders"
  bad_foreign_policies:0 "Bad Foreign Policies"
  trade_sanctions:0 "Trade Sanctions"
@@ -344,11 +348,13 @@
  nordic_alliance:0 "Nordic Alliance"
 
  #Factions
+ 
  baltic_entente:0 "Baltic Entente"
  soumi_ugri_pact:0 "Soumi-Viro Pact"
  nordic_union:0 "Nordic Union"
 
- #Equipment
+ #Equipment Names
+ 
  EST_infantry_equipment_0:0 "Mosin-Nagant M1891"
  EST_infantry_equipment_0_short:0 "Mosin-Nagant M1891"
  EST_infantry_equipment_1:0 "Lee-Enfield No.1 Mk.III"
@@ -520,7 +526,8 @@
  EST_battleship_3:0 "Häädemeeste Class"
  EST_battleship_4:0 "Hernepüss Class"
 
- #Countries
+ #Country Names
+ 
  EST_fascism:0 "Estonia"
  EST_fascism_DEF:0 "Estonia"
  EST_neutrality:0 "Estonia"
@@ -543,7 +550,8 @@
  EBD_neutrality_ADJ:0 "Baltic Duchy"
  EBD_communism_ADJ:0 "Baltic Duchy"
 
- #Parties
+ #Party Names
+ 
  EST_monarchy:0 "Monarchy"
  EST_monarchy_long:0 "Monarchy"
  EST_neutrality_party:0 "IML"
@@ -556,6 +564,7 @@
  EST_fascism_party_long:0 "Eesti Vabadussõjalaste Liit"
 
  #Misc
+ 
  EST_GER_Units:0 "You will receive the §YXXVII advanced infantry Corps§! from Germany, consisting of 1 Infantry Divisions and 1 SS-Division with all the extra equipment."
  EST_nortech:0 "Invite Sweden and Finland to form §Nordic Research Agreement§"
  EST_nortechfinal:0 "§Expand the agreement§ and invite all Scandinavian countries to our program"
@@ -564,7 +573,9 @@
  NK_desc:0 "The affiliated organisations of the Defence League combine more than 21,000 volunteers, in all, and include the Estonian Defence League’s women’s corps Naiskodukaitse, the Estonian Defence League’s boys’ corps Noored Kotkad, and the Estonian Defence League’s girls’ corps Kodutütred."
  
  #Industrial
+ 
  viru_chemistry_group:0 "Viru Chemistry Group"
  
  #Leaders
+ 
  POLITICS_KONSTANTIN_PATS_desc:0 ""

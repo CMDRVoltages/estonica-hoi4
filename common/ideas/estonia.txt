@@ -23,9 +23,9 @@ ideas = {
 			}
 		}
 		
-		EST_treaty_of_tartu = {
-		picture = HUN_treaty_of_triannon
-			
+		EST_felled_by_a_flea = {
+		picture = GFX_idea_EST_soviet_bear
+
 			allowed = {
 				always = no
 			}
@@ -37,7 +37,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 			    
 			}

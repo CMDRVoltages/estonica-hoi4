@@ -2,7 +2,7 @@ ideas = {
 
     country = {
 		EST_kaitseliit = {
-		picture = GFX_idea_EST_kaitseliit
+		picture = EST_kaitseliit
 			
 			allowed = {
 				always = no
@@ -24,7 +24,7 @@ ideas = {
 		}
 		
 		EST_felled_by_a_flea = {
-		picture = GFX_idea_EST_soviet_bear
+		picture = EST_soviet_bear
 
 			allowed = {
 				always = no
@@ -39,7 +39,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    
+			    communism_acceptance = -30
+				conscription_factor = 0.02
 			}
 		}
 		

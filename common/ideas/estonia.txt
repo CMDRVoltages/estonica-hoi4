@@ -199,8 +199,8 @@ ideas = {
 			}
 		}
 		
-		EST_the_great_depression = {
-		picture = great_depression
+		EST_agricultural_economy = {
+		picture = EST_agrarian_society
 			allowed = {
 				always = no
 			}
@@ -213,8 +213,8 @@ ideas = {
 			removal_cost = -10
 			
 			modifier = {
-			    consumer_goods_factor = 0.10
-			    stability_factor = -0.05
+			    industrial_capacity_factory = -0.2
+				industrial_capacity_dockyard = -0.2
 			}
 		}
 		outdated_military = {

@@ -9,4 +9,9 @@ spriteTypes = {
 		name = "GFX_idea_EST_soviet_bear"
 		texturefile = "gfx/interface/ideas/EST_idea_soviet_bear.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_EST_agrarian_society"
+		texturefile = "gfx/interface/ideas/EST_idea_agrarian_society.dds"
+	}
 }

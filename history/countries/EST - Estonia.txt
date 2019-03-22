@@ -9,7 +9,7 @@ set_war_support = 0.37
 add_ideas = {
 	EST_kaitseliit
 	EST_felled_by_a_flea
-	EST_the_great_depression
+	EST_agricultural_economy
 	outdated_military
 }
 

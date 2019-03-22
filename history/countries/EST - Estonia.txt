@@ -1,4 +1,4 @@
-capital = 13
+﻿capital = 13
 
 oob = "EST_1936"
 
@@ -10,7 +10,7 @@ add_ideas = {
 	EST_kaitseliit
 	EST_felled_by_a_flea
 	EST_agricultural_economy
-	outdated_military
+	EST_state_of_emergency
 }
 
 set_technology = {
@@ -91,11 +91,11 @@ set_politics = {
 
 	parties = {
 		democratic = {
-			popularity = 15
+			popularity = 20
 		}
 
 		fascism = {
-			popularity = 10
+			popularity = 5
 		}
 		
 		communism = {

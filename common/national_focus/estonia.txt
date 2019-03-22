@@ -1789,8 +1789,8 @@ focus = {
 
 
 	focus = {
-		id = EST_strengthen_the_government
-		icon = GFX_goal_generic_demand_territory
+		id = EST_konstantin_pats
+		icon = GFX_focus_EST_konstantin_pats
 		
 		x = 31
 		y = 0
@@ -1799,7 +1799,31 @@ focus = {
 		ai_will_do = {
 			factor = 20
 		}
+		
+        mutually_exclusive = { focus = EST_oppose_konstantin_pats }
+		
+		available_if_capitulated = yes
 
+		completion_reward = {
+			add_political_power = 120
+			country_event = { id = est.30 }
+		}
+	}
+	
+	focus = {
+		id = EST_oppose_konstantin_pats
+		icon = GFX_focus_EST_jaan_tonisson
+		
+		x = 38
+		y = 0
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+        
+		mutually_exclusive = { focus = EST_konstantin_pats }
+		
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -1811,7 +1835,7 @@ focus = {
 	focus = {
 		id = EST_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = EST_strengthen_the_government }
+		prerequisite = { focus = EST_konstantin_pats }
 		mutually_exclusive = { focus = EST_reform_government }
 		
 		x = 29
@@ -1832,7 +1856,7 @@ focus = {
 	focus = {
 		id = EST_reform_government
 		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = EST_strengthen_the_government }
+		prerequisite = { focus = EST_konstantin_pats }
 		mutually_exclusive = { focus = EST_collectivist_propaganda }
 		
 		x = 33

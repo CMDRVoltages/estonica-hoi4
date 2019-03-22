@@ -1,0 +1,12 @@
+spritetypes = {	
+
+	spritetype = {
+	    name = "GFX_focus_EST_konstantin_pats"
+	    texturefile = "gfx/interface/goals/focus_est_konstantin_pats.dds"		
+	}
+	
+	spritetype = {
+	    name = "GFX_focus_EST_jaan_tonisson"
+	    texturefile = "gfx/interface/goals/focus_est_jaan_tonisson.dds"		
+	}	
+}

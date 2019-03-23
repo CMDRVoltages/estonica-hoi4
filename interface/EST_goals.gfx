@@ -8,5 +8,10 @@ spritetypes = {
 	spritetype = {
 	    name = "GFX_focus_EST_jaan_tonisson"
 	    texturefile = "gfx/interface/goals/focus_est_jaan_tonisson.dds"		
-	}	
+	}
+	
+	spritetype = {
+	    name = "GFX_focus_EST_oppose_the_parliament"
+	    texturefile = "gfx/interface/goals/focus_est_march_on_parliament.dds"		
+	}
 }

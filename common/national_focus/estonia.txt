@@ -1800,7 +1800,7 @@ focus = {
 			factor = 20
 		}
 		
-        mutually_exclusive = { focus = EST_oppose_konstantin_pats }
+        mutually_exclusive = { focus = EST_oppose_the_parliament }
 		
 		available_if_capitulated = yes
 
@@ -1811,8 +1811,8 @@ focus = {
 	}
 	
 	focus = {
-		id = EST_oppose_konstantin_pats
-		icon = GFX_focus_EST_jaan_tonisson
+		id = EST_oppose_the_parliament
+		icon = GFX_focus_EST_oppose_the_parliament
 		
 		x = 38
 		y = 0

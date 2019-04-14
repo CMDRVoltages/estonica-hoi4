@@ -78,7 +78,7 @@
  est.28.d:0 "Our neighbor Estonia has refused to give in to pressures from the Soviet Union, and the nations are now in a state of war. Although no formal alliance has been agreed upon between our countries, the Estonian government has requested that Finland contribute to a joint defense of Ida-Virumaa\n\nWhile the government remains divided on what steps we should take to help Estonia, the public support for their defense is notable. How far are we willing to go to protect our fellow neighbours from eastern aggression?"
  est.29.d:0 "The Finnish government has been willing to support our efforts to fight against the Soviet Union becouse of it's public support among our neighbors is very high, and many volunteers from the other Nordic countries have offered to join our ranks to aid the war effort. Although less than we hoped, at least there is some popular awareness about the threat we are facing."
  est.30.t:0 "Crises Are Over"
- est.30.d:0 "Since the start of the great depression in 1929 with industry and agriculture declining 20 to 45% respectively we now have finally surpassed the level of before 1930's. It's time to get back on our feet back up!"
+ est.30.d:0 "A wave of mass-protests has hit the capital. Demonstrations have clogged roads and in and around the Riigikogu building. Organized by the "[EST.GetDemocraticParty]" and the "[EST.GetFascistParty]". The protesters demanded the resignation of [EST.GetLeader] and elections to be restablished. In particular, they demanded that [EST.GetLeader] denounce his state of emergency to be halted and to releace all political prisoners that were arrested by [EST.GetLeader] while in power. \n\nPrime minister [EST.GetLeader] has refused to comment on the issue."
  est.31.t:0 "Economy Reform"
  est.31.d:0 "After the Independence war in 1918-1920 Estonian economy was in really bad shape, becouse of the wartime industry didn't fit to our economic structure and the country had taken numerous foreign loans.\n\nTo assure Estonian economy growth in future we must solve some of our economic and logistic questions."
  est.32.t:0 "Estonia Demands Our Annexiation"
@@ -200,6 +200,7 @@
  EST_konstantin_pats:0 "Konstantin Päts"
  EST_konstantin_pats_desc:0 "We cannot afford to stand divided. Our strength to enact changes is proportional to our unity in both the parliament and government."
  EST_oppose_the_parliament:0 "Oppose The Parliament"
+ EST_oppose_the_parliament_desc:0 "Its time for us to take back our country from authoriatism that is [EST.GetLeader]!"
  EST_nobody_expects:0 "Nobody Expects"
  EST_nobody_expects_desc:0 "We must not lose the chance to be the first to discover a way to harness the primal fire of fission."
  EST_create_our_own_faction:0 "Create Our Own Faction"
@@ -570,7 +571,7 @@
  EST_GER_Units:0 "You will receive the §YXXVII advanced infantry Corps§! from Germany, consisting of 1 Infantry Divisions and 1 SS-Division with all the extra equipment."
  EST_nortech:0 "Invite Sweden and Finland to form §Nordic Research Agreement§"
  EST_nortechfinal:0 "§Expand the agreement§ and invite all Scandinavian countries to our program"
- 
+ EST_this_will_move_you_closer_to_a_civil_war:0 "§RThis will move you closer to a Civil War!"
  NK:0 "Noored Kotkad"
  NK_desc:0 "The affiliated organisations of the Defence League combine more than 21,000 volunteers, in all, and include the Estonian Defence League’s women’s corps Naiskodukaitse, the Estonian Defence League’s boys’ corps Noored Kotkad, and the Estonian Defence League’s girls’ corps Kodutütred."
  

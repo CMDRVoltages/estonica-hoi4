@@ -888,18 +888,18 @@ country_event = {
 	}
 }
 
-#People first event
+#
 country_event = {
 	id = est.30
-	title = est.30.t
+	title = "Protests in the Capital"
 	desc = est.30.d
-	picture = GFX_report_event_ecocrises
+	picture = GFX_report_event_generic_riot
 	
 	fire_only_once = yes
 	
 	option = {
-		name = "New days are ahead of us"
-		remove_ideas = economic_crises
+		name = "This isn't looking good!"
+		remove_ideas = EST_state_of_emergency
 	}
 }
 

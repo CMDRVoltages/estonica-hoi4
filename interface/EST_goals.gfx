@@ -14,4 +14,9 @@ spritetypes = {
 	    name = "GFX_focus_EST_oppose_the_parliament"
 	    texturefile = "gfx/interface/goals/focus_est_march_on_parliament.dds"		
 	}
+	
+	spritetype = {
+	    name = "GFX_focus_EST_reestablishing_elections"
+	    texturefile = "gfx/interface/goals/focus_est_reestablishing_elections.dds"		
+	}
 }

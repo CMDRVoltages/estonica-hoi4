@@ -1830,6 +1830,73 @@ focus = {
 			add_stability = -0.1
 			country_event = { id = est.30 }
 			custom_effect_tooltip = EST_this_will_move_you_closer_to_a_civil_war
+			hidden_effect = {
+                country_event = {
+                    id = my_event.1
+                    days = 10
+                    random = 50
+                }
+            }
+		}
+	}
+	
+	focus = {
+		id = EST_resignation_of_pats
+		icon = GFX_goal_generic_forceful_treaty
+		
+		x = 37
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 20
+		}
+        
+		mutually_exclusive = {}
+		
+		prerequisite = { focus = EST_oppose_the_parliament }
+		
+		available_if_capitulated = yes
+		
+        available = {
+		    NOT = { 
+			    has_country_leader = {
+                    name = "Konstantin Päts"
+                    ruling_only = yes
+			    }
+			}
+        }
+		
+		completion_reward = {
+			add_stability = -0.1
+			country_event = { id = est.30 }
+			custom_effect_tooltip = EST_this_will_move_you_closer_to_a_civil_war
+		}
+	}
+	
+	focus = {
+		id = EST_releasing_political_prisoners
+		icon = GFX_focus_generic_military_academy
+		
+		x = 39
+		y = 1
+		cost = 5
+
+		ai_will_do = {
+			factor = 20
+		}
+        
+		mutually_exclusive = {}
+		
+		prerequisite = { focus = EST_oppose_the_parliament }
+		
+		available_if_capitulated = yes
+		
+        available = {}
+		
+		completion_reward = {
+			country_event = { id = est.30 }
+			custom_effect_tooltip = EST_releasing_political_prisoners_will
 		}
 	}
 
@@ -1846,7 +1913,7 @@ focus = {
 		ai_will_do = {
 			factor = 10
 		}
-
+        
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -2567,16 +2634,17 @@ focus = {
     }
 
 
-	############################
-	##### LIBERALISM       #####
-	############################
+	#####################
+	##### DEMOCRACY #####
+	#####################
 
 
 	focus = {
-		id = EST_return_of_vapsid
-		icon = GFX_goal_support_democracy
-		prerequisite = { focus = EST_reform_government }
-		mutually_exclusive = { focus = EST_stay_neutral }
+		id = EST_reestablishing_elections
+		icon = GFX_focus_EST_reestablishing_elections
+		prerequisite = { focus = EST_resignation_of_pats }
+		prerequisite = { focus = EST_releasing_political_prisoners }
+		mutually_exclusive = {}
 
 		x = 34
 		y = 2
@@ -2589,8 +2657,17 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = democratic_influence
-			#Increase in Democratic Support
+			add_timed_idea = {
+			    idea = EST_reestablished_elections
+				days = 720
+			}
+			custom_effect_tooltip = EST_public_elections_will_be_held
+			hidden = {
+			    set_politics = {
+			        ruling_party = neutrality
+				    elections_allowed = yes
+			    }
+			}
 		}
 	}
 	focus = {

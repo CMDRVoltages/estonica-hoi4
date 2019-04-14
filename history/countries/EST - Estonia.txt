@@ -155,6 +155,17 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Riigikogu"
+	desc = ""
+	picture = "GFX_Portrait_estonia_konstantin_pats"
+	expire = "1965.1.1"
+	ideology = oilgarchy
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Jaan Tõnisson"
 	picture = "Portrait_Estonia_Jaan_Tonisson.dds"
 	expire = "1967.1.1"

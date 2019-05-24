@@ -1,22 +1,22 @@
 spritetypes = {	
 
 	spritetype = {
-	    name = "GFX_focus_EST_konstantin_pats"
+	    name = "GFX_goal_EST_konstantin_pats"
 	    texturefile = "gfx/interface/goals/focus_est_konstantin_pats.dds"		
 	}
 	
 	spritetype = {
-	    name = "GFX_focus_EST_jaan_tonisson"
+	    name = "GFX_goal_EST_jaan_tonisson"
 	    texturefile = "gfx/interface/goals/focus_est_jaan_tonisson.dds"		
 	}
 	
 	spritetype = {
-	    name = "GFX_focus_EST_oppose_the_parliament"
+	    name = "GFX_goal_EST_oppose_the_parliament"
 	    texturefile = "gfx/interface/goals/focus_est_march_on_parliament.dds"		
 	}
 	
 	spritetype = {
-	    name = "GFX_focus_EST_reestablishing_elections"
+	    name = "GFX_goal_EST_reestablishing_elections"
 	    texturefile = "gfx/interface/goals/focus_est_reestablishing_elections.dds"		
 	}
 }

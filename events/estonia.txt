@@ -905,40 +905,39 @@ country_event = {
 
 country_event = {
 	id = est.31
-	title = est.31.t
+	title = "Resignation of Konstantin Päts"
 	desc = est.31.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_resignation_of_pats
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "Research new electronic technologies"
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = electronics
+		name = "Goodbye, Päts!"
+		    retire_country_leader = yes
+			EST = {
+			    create_country_leader = {
+						 
+   
+  
+ 
+		   
+                    name = "Riigikogu"
+	                desc = ""
+	                picture = "Portrait_Estonia_Riigikogu.dds"
+	                expire = "1965.1.1"
+	                ideology = oilgarchy
+	                traits = {#}
+				}
+			}
+		   
+										 
+					
+			  
+		   
+							   
 		}
-	}
-	
-	option = {
-		name = "Industry is a way to go"
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = industry
-		}
-	}
-	
-	option = {
-		name = "Construction is a right choice"
-		add_tech_bonus = {
-			bonus = 0.5
-			uses = 1
-			category = construction_tech
-		}
-		
-	}
 }
+
 
 # Integrate, attack latvia wargoal lat gets event
 country_event = {

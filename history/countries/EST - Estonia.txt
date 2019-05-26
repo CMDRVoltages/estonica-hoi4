@@ -159,7 +159,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_Portrait_estonia_konstantin_pats"
 	expire = "1965.1.1"
-	ideology = oilgarchy
+	ideology = moderatism
 	traits = {
 		#
 	}
@@ -172,6 +172,7 @@ create_country_leader = {
 	ideology = socialism
 	traits = {
 		triumphant_revolutionary
+		popular_figurehead2
 	}
 }
 

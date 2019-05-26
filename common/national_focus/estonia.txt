@@ -1789,8 +1789,8 @@ focus = {
 
 
 	focus = {
-		id = EST_konstantin_pats
-		icon = GFX_focus_EST_konstantin_pats
+		id = EST_the_unthinkable
+		icon = GFX_goal_support_communism
 		
 		x = 31
 		y = 0
@@ -1810,36 +1810,7 @@ focus = {
 		}
 	}
 	
-	focus = {
-		id = EST_oppose_the_parliament
-		icon = GFX_focus_EST_oppose_the_parliament
-		
-		x = 38
-		y = 0
-		cost = 10
 
-		ai_will_do = {
-			factor = 20
-		}
-        
-		mutually_exclusive = { focus = EST_konstantin_pats }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = -0.1
-			country_event = { id = est.30 }
-			custom_effect_tooltip = EST_this_will_move_you_closer_to_a_civil_war
-			hidden_effect = {
-                country_event = {
-                    id = my_event.1
-                    days = 10
-                    random = 50
-                }
-            }
-		}
-	}
-	
 	focus = {
 		id = EST_resignation_of_pats
 		icon = GFX_goal_generic_forceful_treaty
@@ -1854,7 +1825,7 @@ focus = {
         
 		mutually_exclusive = {}
 		
-		prerequisite = { focus = EST_oppose_the_parliament }
+		prerequisite = {}
 		
 		available_if_capitulated = yes
 		
@@ -1870,7 +1841,7 @@ focus = {
 		completion_reward = {
 			add_stability = -0.1
 			country_event = { id = est.30 }
-			custom_effect_tooltip = EST_this_will_move_you_closer_to_a_civil_war
+			custom_effect_tooltip = EST_if_you_dont_regain_stability_in_2_years_the_communists_will_try_to_overthrow_you
 		}
 	}
 	
@@ -1888,7 +1859,7 @@ focus = {
         
 		mutually_exclusive = {}
 		
-		prerequisite = { focus = EST_oppose_the_parliament }
+		prerequisite = {}
 		
 		available_if_capitulated = yes
 		
@@ -2641,13 +2612,13 @@ focus = {
 
 	focus = {
 		id = EST_reestablishing_elections
-		icon = GFX_focus_EST_reestablishing_elections
+		icon = GFX_goal_EST_reestablishing_elections
 		prerequisite = { focus = EST_resignation_of_pats }
 		prerequisite = { focus = EST_releasing_political_prisoners }
 		mutually_exclusive = {}
 
 		x = 34
-		y = 2
+		y = 3
 		cost = 10
 
 		ai_will_do = {
@@ -2670,6 +2641,38 @@ focus = {
 			}
 		}
 	}
+	
+	focus = {
+		id = EST_the_only_man_to_restore_of_democracy
+		icon = GFX_goal_EST_jaan_tonisson
+		prerequisite = { focus = EST_reestablishing_elections }
+		mutually_exclusive = {}
+
+		x = 34
+		y = 4
+		cost = 10
+
+		ai_will_do = {
+			factor = 35
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+			    idea = EST_reestablished_elections
+				days = 720
+			}
+			custom_effect_tooltip = EST_public_elections_will_be_held
+			hidden = {
+			    set_politics = {
+			        ruling_party = neutrality
+				    elections_allowed = yes
+			    }
+			}
+		}
+	}
+	
 	focus = {
 		id = EST_nordic_technology_sharing
 		icon = GFX_goal_tfv_generic_tech_sharing
@@ -2816,55 +2819,7 @@ focus = {
 			} 
 		}
 	}
-	focus = {
-		id = EST_capitalise_our_nation
-		icon = GFX_goal_anti_comintern_pact
-		prerequisite = { focus = EST_return_of_vapsid }
 
-		available = {
-		OR {
-			has_government = neutrality
-			has_government = democratic
-		}
-		}
-
-		x = 35
-		y = 3
-		cost = 10
-		completion_reward = {
-			add_ideas = capitalism
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 0
-						include_locked = yes
-					}
-					OR = {
-						is_in_home_area = yes
-						NOT = {
-							owner = {
-								any_owned_state = {
-									free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-									}
-									is_in_home_area = yes
-								}
-							}
-						}
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
 	focus = {
 		id = EST_form_baltic_duchy
 		icon = GFX_focus_generic_support_the_left_right

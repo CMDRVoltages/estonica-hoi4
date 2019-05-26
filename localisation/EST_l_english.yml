@@ -197,8 +197,8 @@
  EST_destroyer_focus_desc:0 "Modern battleships are marvels, but we must not neglect the critical role of the humble destroyer in the protection of our convoys"
  EST_army_modernisation:0 "Army Modernisation"
  EST_army_modernisation_desc:0 "Modern arms for modern men!"
- EST_konstantin_pats:0 "Konstantin Päts"
- EST_konstantin_pats_desc:0 "We cannot afford to stand divided. Our strength to enact changes is proportional to our unity in both the parliament and government."
+ EST_the_unthinkable:0 "The Unthinkable"
+ EST_the_unthinkable_desc:0 "We cannot afford to stand divided. Our strength to enact changes is proportional to our unity in both the parliament and government."
  EST_oppose_the_parliament:0 "Oppose The Parliament"
  EST_oppose_the_parliament_desc:0 "Its time for us to take back our country from authoriatism that is [EST.GetLeader]!"
  EST_resignation_of_pats:0 "Resignation of Päts"
@@ -281,6 +281,7 @@
  EST_demand_latvia_desc:0 "The Latvian government is weak and foolish. We must point them to right direction if we both want to survive this era."
  EST_demand_lithuania:0 "Lithuanias Fate"
  EST_demand_lithuania_desc:0 "Last final step for Baltic unification. Lithuania should bow to us or get annexed."
+ EST_the_only_man_to_restore_of_democracy:0 "The Only Man To Restore the Republic"
  
  #Ideas
  
@@ -572,7 +573,7 @@
  EST_GER_Units:0 "You will receive the §YXXVII advanced infantry Corps§! from Germany, consisting of 1 Infantry Divisions and 1 SS-Division with all the extra equipment."
  EST_nortech:0 "Invite Sweden and Finland to form §Nordic Research Agreement§"
  EST_nortechfinal:0 "§Expand the agreement§ and invite all Scandinavian countries to our program"
- EST_this_will_move_you_closer_to_a_civil_war:0 "§RThis will move you closer to a Civil War!"
+ EST_if_you_dont_regain_stability_in_2_years_the_communists_will_try_to_overthrow_you:0 "§RYou must regain stability in 2 years or the communists will try to overthrow you!§!"
  EST_public_elections_will_be_held:0 "Public elections will be held."
  NK:0 "Noored Kotkad"
  NK_desc:0 "The affiliated organisations of the Defence League combine more than 21,000 volunteers, in all, and include the Estonian Defence League’s women’s corps Naiskodukaitse, the Estonian Defence League’s boys’ corps Noored Kotkad, and the Estonian Defence League’s girls’ corps Kodutütred."

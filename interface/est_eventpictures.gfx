@@ -97,6 +97,11 @@ texturefile = "gfx/event_pictures/report_event_vagi3.dds"
 }
 
 spriteType = {
+name = "GFX_report_event_resignation_of_pats"
+texturefile = "gfx/event_pictures/report_event_resignation_of_pats.dds" 
+}
+
+spriteType = {
 name = "GFX_news_event_moskva"
 texturefile = "gfx/event_pictures/news_event_moskva.dds" 
 }

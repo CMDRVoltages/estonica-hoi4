@@ -916,25 +916,14 @@ country_event = {
 		    retire_country_leader = yes
 			EST = {
 			    create_country_leader = {
-						 
-   
-  
- 
-		   
                     name = "Riigikogu"
 	                desc = ""
 	                picture = "Portrait_Estonia_Riigikogu.dds"
 	                expire = "1965.1.1"
-	                ideology = oilgarchy
+	                ideology = moderatism
 	                traits = {#}
 				}
-			}
-		   
-										 
-					
-			  
-		   
-							   
+			}								 				    					   
 		}
 }
 

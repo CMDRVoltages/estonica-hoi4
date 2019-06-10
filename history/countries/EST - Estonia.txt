@@ -25,12 +25,29 @@ set_technology = {
 	basic_submarine = 1
 	field_hospital = 1
 }
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
 
 set_convoys = 15
 
 1939.1.1 = {
 
-	add_political_power = 1200
+	add_political_power = 1198
 	
 	#generic focuses
 	complete_national_focus = army_effort
@@ -44,6 +61,13 @@ set_convoys = 15
 	complete_national_focus = production_effort
 	
 	oob = "EST_1939"
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+			set_naval_oob = "EST_1939_naval_mtg"
+		else = {
+			set_naval_oob = "EST_1939_naval_legacy"
+		}
+	}
 	set_technology = {
 		tech_recon = 1
 		tech_support = 1		
@@ -57,6 +81,7 @@ set_convoys = 15
 		interwar_antiair = 1
 		support_weapons = 1
 		basic_submarine = 1
+		naval_bomber1 = 1
 
 		#doctrines
 		air_superiority = 1
@@ -78,68 +103,55 @@ set_convoys = 15
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
+		fuel_silos = 1
+		oil_processing = 1
+		improved_oil_processing = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+		if = {
+		limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+			basic_submarine = 1
+		}
+	}
+	if = {
+		limit = { has_dlc = "Man the Guns" }
+		set_technology = {
+			basic_ship_hull_submarine = 1
+		}
+	}
 }
 
 set_politics = {
-
-	parties = {
-		democratic = {
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 5
-		}
-		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 55
-		}
-	}
-	
 	ruling_party = neutrality
-	last_election = "1934.5.21"
+	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+set_popularities = {
+	democratic = 20
+	fascism = 15
+	communism = 5
+	neutrality = 60
+}
+
 1939.1.1 = {
 	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
-
-			fascism = {
-				popularity = 15
-			}
-			
-			communism = {
-				popularity = 5
-				#banned = no #default is no
-			}
-			
-			neutrality = { 
-				popularity = 60
-			}
-		}
-		
 		ruling_party = neutrality
 		last_election = "1938.2.25"
 		election_frequency = 48
-		elections_allowed = no
+	    elections_allowed = no
+	}
+		
+	set_popularities = {
+			democratic = 20
+			fascism = 15
+			communism = 5
+			neutrality = 60
 	}
 }
 

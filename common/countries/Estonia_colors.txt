@@ -1,7 +1,0 @@
-#reload countrycolors
-
-EBD = {
-	color = rgb { 219, 202, 13 }
-	color_ui = rgb { 219 202 13 }
-}
-

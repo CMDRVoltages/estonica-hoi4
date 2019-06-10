@@ -1789,7 +1789,7 @@ focus = {
 
 
 	focus = {
-		id = EST_the_unthinkable
+		id = EST_preparations_for_the_revolution
 		icon = GFX_goal_support_communism
 		
 		x = 31
@@ -1872,12 +1872,12 @@ focus = {
 	}
 
 	focus = {
-		id = EST_collectivist_propaganda
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = EST_konstantin_pats }
-		mutually_exclusive = { focus = EST_reform_government }
+		id = EST_seek_accommodation_with_ussr
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = EST_preparations_for_the_revolution }
+		mutually_exclusive = {}
 		
-		x = 29
+		x = 32
 		y = 1
 		cost = 10
 
@@ -1888,17 +1888,16 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = propaganda_machine
 		}
 	}
 
 	focus = {
-		id = EST_reform_government
-		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = EST_konstantin_pats }
-		mutually_exclusive = { focus = EST_collectivist_propaganda }
+		id = EST_seek_the_support_of_the_ussr
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = EST_preparations_for_the_revolution}
+		mutually_exclusive = { focus = EST_seek_accommodation_with_ussr }
 		
-		x = 33
+		x = 30
 		y = 1
 		cost = 10
 
@@ -1909,7 +1908,6 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = back_to_routes
 		}
 	}
 
@@ -1918,31 +1916,6 @@ focus = {
 	##     Nazi ##
 	##############
 
-
-	focus = {
-		id = EST_revive_the_right_wing
-		icon = GFX_goal_support_fascism #icon = GFX_goal_tripartite_pact
-		prerequisite = { focus = EST_collectivist_propaganda }
-		mutually_exclusive = { focus = EST_support_the_left }
-		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-				has_government = fascism
-			}
-		}
-		x = 27
-		y = 2
-		cost = 10
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		completion_reward = {
-			add_ideas = nationalism
-		}
-	}
 	focus = {
 		id = EST_demand_southern_lands
 		icon = GFX_goal_generic_occupy_states_ongoing_war
@@ -2429,28 +2402,6 @@ focus = {
 	############################
 	
 	focus = {
-		id = EST_support_the_left
-		icon = GFX_goal_support_communism
-	 	prerequisite = { focus = EST_collectivist_propaganda }
-	 	mutually_exclusive = { focus = EST_revive_the_right_wing }
-
-		x = 32
-		y = 2
-		cost = 10
-		ai_will_do = {
-			factor = 1
-		}
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = {	FRA_support_the_left_focus }
-		    hidden_effect = {				
-			news_event = { days = 1 id = est.19 }				
-			}
-		}	
-    }
-	focus = {
 		id = EST_ensv
 		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = { focus = EST_support_the_left }
@@ -2659,16 +2610,9 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_timed_idea = {
-			    idea = EST_reestablished_elections
-				days = 720
-			}
-			custom_effect_tooltip = EST_public_elections_will_be_held
-			hidden = {
-			    set_politics = {
-			        ruling_party = neutrality
-				    elections_allowed = yes
-			    }
+			set_politics = {
+			    ruling_party = democratic
+				elections_allowed = yes
 			}
 		}
 	}

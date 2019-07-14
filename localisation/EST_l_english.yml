@@ -118,9 +118,9 @@
 
  #Focus Tree
  
- EST_the_four_year_plan:0 "The Two Year Plan"
- EST_the_four_year_plan_desc:0 "Our industry and agriculture are lacking beahind the production we had before the great depression. Let us start improving these by starting the 2 year plan."
- EST_tallinn_tartu_highways:0 "Tallinn-Tartu Highways"
+ EST_devaluation_of_the_estonian_kroon:0 "Devaluation of the Estonian Kroon"
+ EST_devaluation_of_the_estonian_kroon_desc:0 "The recent disposal of the Gold Standard has left the value of the Estonian Kroon to fluctuate mostly. To ensure the stability of the currency, we will have to devalue the Estonian Kroon by 45%. This will ensure that the currency stays above 19,20 Kroon per 1 British Pound."
+ EST_extending_the_nationwide_state_of_defense:0 "Extending the Nationwide State of Defence"
  EST_tallinn_tartu_highways_desc:0 "Infrastructure is important for trafficing. It allows our troops to move faster and carry more equipment. We must do as the germans did and build our own autobahn"
  EST_develop_our_railroads:0 "Develop Our Railroads"
  EST_develop_our_railroads_desc:0 "We still have quite undeveloped railway system - any troops in our country cannot affort to be bogged down in transit. We must repair and extend our old railways."
@@ -205,7 +205,7 @@
  EST_topple_the_government_desc:0 "The current government is weak and that [EST.GetLeader] is at fault for it, its time to retake our country from him!"
  EST_early_resignation_of_pats:0 "Early Resignation of Päts"
  EST_early_resignation_of_pats_desc:0 "The early resignation of Konstantin Päts will be beneficial to our governmental reforms!"
- EST_releasing_political_prisoners:0 "Releasing Political Prisoners"
+ EST_expanding_nationalisation:0 "Statewide Nationlisation"
  EST_nobody_expects_desc:0 "We must not lose the chance to be the first to discover a way to harness the primal fire of fission."
  EST_create_our_own_faction:0 "Create Our Own Faction"
  EST_create_our_own_faction_desc:0 "While Germany may be the main force of fascism in world at the moment, Estonia can expand by its own. We do not need to join their faction and be under their command. Let us create our own destiny!"
@@ -320,7 +320,7 @@
  more_jobs:0 "More Jobs"
  force_the_unification:0 "Force The Unification"
  unmotivated_soldiers:0 "Unmotivated soldiers"
- EST_agricultural_economy:0 "Agricultural Economy"
+ EST_the_great_depression:0 "The Great Depression"
  exporting_equipment:0 "Exporting Equipment"
  political_manipulation:0 "Political Manipulation"
  refugees:0 "Refugees"

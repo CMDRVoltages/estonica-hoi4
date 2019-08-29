@@ -1,0 +1,14 @@
+leader_traits = {
+	
+	### IDEA TRAITS ###
+	
+    financial_newbie = {
+		sprite = 10
+		random = yes
+		consumer_goods_factor = -0.02
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+}

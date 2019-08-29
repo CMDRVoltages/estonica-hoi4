@@ -4,13 +4,11 @@ oob = "EST_1936"
 
 set_research_slots = 3
 
-set_war_support = 0.37
+set_war_support = 0.18
 
 add_ideas = {
+    limited_conscription
 	EST_kaitseliit
-	EST_felled_by_a_flea
-	EST_agricultural_economy
-	EST_state_of_emergency
 }
 
 diplomatic_relation = {

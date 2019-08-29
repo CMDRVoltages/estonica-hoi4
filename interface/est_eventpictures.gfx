@@ -120,4 +120,8 @@ spriteType = {
 name = "GFX_news_event_berlin"
 texturefile = "gfx/event_pictures/news_event_berlin.dds" 
 }
+spriteType = {
+name = "GFX_report_event_karl_selter_resigns"
+texturefile = "gfx/event_pictures/report_event_karl_selter_resigns.dds" 
+}
 }

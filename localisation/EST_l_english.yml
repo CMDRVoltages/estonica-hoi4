@@ -1,9 +1,4 @@
 ﻿l_english:
- est.1.t:0 "Fall of Leningrad"
- est.1.d:0 "Leningrad, the former capital of the Russian Empire, has been occupied by Estonian forces. With a population of over three million, the city has twice as many inhabitants as all of Estonia, but this fact has evidently not deterred the Estonian attackers.\n\nThere is some debate as to whether the city should be integrated into Greater Estonia, since different soumi-ugri speaking people make up a considerable minority in the regions outside the city. This, of course, assumes that the Red Army is unable to retake the city in a counteroffensive."
- est.1.a:0 "Okey"
- est.1.b:0 "We are truly one powerful small country!"
- est.2.t:0 "The Fall of Riga"
  est.2.d:0 "Earlier today, Estonian arms forces successfully occupied the city of Riga, a vital strategic objective in their war against Latvia. \n\nLocated in the center of Baltics, the city is the key to the Baltic route to Europe.\n\nIts capture puts Estonia in a position to expand the war further into the Eastern-Europe"
  est.2.b:0 "Victory Belongs To Us!"
  est.2.a:0 "Another country has fallen to its enemy.."
@@ -120,7 +115,7 @@
  
  EST_devaluation_of_the_estonian_kroon:0 "Devaluation of the Estonian Kroon"
  EST_devaluation_of_the_estonian_kroon_desc:0 "The recent disposal of the Gold Standard has left the value of the Estonian Kroon to fluctuate mostly. To ensure the stability of the currency, we will have to devalue the Estonian Kroon by 45%. This will ensure that the currency stays above 19,20 Kroon per 1 British Pound."
- EST_extending_the_nationwide_state_of_defense:0 "Extending the Nationwide State of Defence"
+ EST_the_one_and_only_party:0 "One-party State"
  EST_tallinn_tartu_highways_desc:0 "Infrastructure is important for trafficing. It allows our troops to move faster and carry more equipment. We must do as the germans did and build our own autobahn"
  EST_develop_our_railroads:0 "Develop Our Railroads"
  EST_develop_our_railroads_desc:0 "We still have quite undeveloped railway system - any troops in our country cannot affort to be bogged down in transit. We must repair and extend our old railways."
@@ -197,13 +192,13 @@
  EST_destroyer_focus_desc:0 "Modern battleships are marvels, but we must not neglect the critical role of the humble destroyer in the protection of our convoys"
  EST_army_modernisation:0 "Army Modernisation"
  EST_army_modernisation_desc:0 "Modern arms for modern men!"
- EST_preparations_for_the_revolution:0 "Preparations for the Revolution"
+ EST_the_june_coup:0 "The June Coup"
  EST_preparations_for_the_revolution:0 "We cannot afford to stand divided. Our strength to enact changes is proportional to our unity in both the parliament and government."
  EST_oppose_the_parliament:0 "Oppose The Parliament"
  EST_oppose_the_parliament_desc:0 "Its time for us to take back our country from authoriatism that is [EST.GetLeader]!"                                                           
  EST_topple_the_government:0 "Topple the Government"
  EST_topple_the_government_desc:0 "The current government is weak and that [EST.GetLeader] is at fault for it, its time to retake our country from him!"
- EST_early_resignation_of_pats:0 "Early Resignation of Päts"
+ EST_period_of_transition_act:0 "Period of Transition Act"
  EST_early_resignation_of_pats_desc:0 "The early resignation of Konstantin Päts will be beneficial to our governmental reforms!"
  EST_expanding_nationalisation:0 "Statewide Nationlisation"
  EST_nobody_expects_desc:0 "We must not lose the chance to be the first to discover a way to harness the primal fire of fission."
@@ -568,7 +563,7 @@
  EST_communism_party_long:0 "Eesti Kommunistlik Partei"
  EST_democratic_party:0 "RKE"
  EST_democratic_party_long:0 "Rahvuslik Keskerakond"
- EST_fascism_party:0 "EVL"
+ EST_fascism_party:0 "EVSL"
  EST_fascism_party_long:0 "Eesti Vabadussõjalaste Liit"
 
  #Misc
@@ -580,6 +575,9 @@
  EST_public_elections_will_be_held:0 "Public elections will be held."
  NK:0 "Noored Kotkad"
  NK_desc:0 "The affiliated organisations of the Defence League combine more than 21,000 volunteers, in all, and include the Estonian Defence League’s women’s corps Naiskodukaitse, the Estonian Defence League’s boys’ corps Noored Kotkad, and the Estonian Defence League’s girls’ corps Kodutütred."
+ karl_setler_resigns_tt:0 "§YKarl Setler§! will no longer be available as a Political Advisor."
+ karl_setler_resigned:0 "Karl Setler has resigned"
+ financial_newbie:0 "Financial Newbie"
  
  #Industrial
  
@@ -588,3 +586,7 @@
  #Leaders
  
  POLITICS_KONSTANTIN_PATS_desc:0 ""
+ 
+ #Advisors
+ 
+ EST_karl_selter:0 "Karl Selter"

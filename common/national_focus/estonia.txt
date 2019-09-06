@@ -1789,18 +1789,18 @@ focus = {
 
 
 	focus = {
-		id = EST_preparations_for_the_revolution
+		id = EST_the_june_coup
 		icon = GFX_goal_support_communism
 		
 		x = 31
 		y = 0
-		cost = 10
-
+		cost = 5
+		
 		ai_will_do = {
 			factor = 20
 		}
 		
-        mutually_exclusive = { focus = EST_oppose_the_parliament }
+        mutually_exclusive = {}
 		
 		available_if_capitulated = yes
 
@@ -1812,7 +1812,7 @@ focus = {
 	
 
 	focus = {
-		id = EST_resignation_of_pats
+		id = EST_period_of_transition_act
 		icon = GFX_goal_generic_forceful_treaty
 		
 		x = 37
@@ -1825,33 +1825,27 @@ focus = {
         
 		mutually_exclusive = {}
 		
-		prerequisite = {}
+		prerequisite = {
+		    focus = EST_the_one_and_only_party
+		}
 		
 		available_if_capitulated = yes
 		
-        available = {
-		    NOT = { 
-			    has_country_leader = {
-                    name = "Konstantin Päts"
-                    ruling_only = yes
-			    }
-			}
-        }
+        available = {}
 		
 		completion_reward = {
-			add_stability = -0.1
-			country_event = { id = est.30 }
-			custom_effect_tooltip = EST_if_you_dont_regain_stability_in_2_years_the_communists_will_try_to_overthrow_you
+		    add_war_support = 0.05
+			add_political_power = 60
 		}
 	}
 	
 	focus = {
-		id = EST_releasing_political_prisoners
-		icon = GFX_focus_generic_military_academy
+		id = EST_the_one_and_only_party
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		
-		x = 39
-		y = 1
-		cost = 5
+		x = 37
+		y = 0
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -1866,8 +1860,6 @@ focus = {
         available = {}
 		
 		completion_reward = {
-			country_event = { id = est.30 }
-			custom_effect_tooltip = EST_releasing_political_prisoners_will
 		}
 	}
 
@@ -1895,7 +1887,7 @@ focus = {
 		id = EST_seek_the_support_of_the_ussr
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = EST_preparations_for_the_revolution}
-		mutually_exclusive = { focus = EST_seek_accommodation_with_ussr }
+		mutually_exclusive = {}
 		
 		x = 30
 		y = 1
@@ -2564,8 +2556,9 @@ focus = {
 	focus = {
 		id = EST_reestablishing_elections
 		icon = GFX_goal_EST_reestablishing_elections
-		prerequisite = { focus = EST_resignation_of_pats }
-		prerequisite = { focus = EST_releasing_political_prisoners }
+		
+		prerequisite = {}
+		
 		mutually_exclusive = {}
 
 		x = 34

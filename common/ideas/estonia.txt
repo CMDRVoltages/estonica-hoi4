@@ -322,9 +322,9 @@ ideas = {
 	
     industrial_concern = {
 		
-		viru_chemistry_group = {
+		estonian_oil_shale = {
 			
-			picture = generic_refining_concern_1
+			picture = EST_estonian_oil_shale
 			
 			allowed = {
 				original_tag = EST

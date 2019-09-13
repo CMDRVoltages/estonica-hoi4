@@ -18,18 +18,21 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = EST_the_four_year_plan
-		icon = GFX_goal_generic_construct_civilian
-		x = 5
+		id = EST_devaluation_of_the_estonian_kroon
+		icon = GFX_focus_mex_privatisation
+		x = 4
 		y = 0
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 30
 		}
 
 		completion_reward = {
-            country_event = { id = est.31 }
+            swap_ideas = {
+                remove_idea = limited_exports
+                add_idea = export_focus
+            }
         }
 	}
 	focus = {

@@ -9,6 +9,7 @@ set_war_support = 0.17
 
 add_ideas = {
     limited_conscription
+	limited_exports
 	EST_kaitseliit
 }
 

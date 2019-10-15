@@ -1,0 +1,229 @@
+###########################
+# Estonian Events
+###########################
+
+add_namespace = est
+
+#FROM pursues nuclear technology
+news_event = {
+	id = est.21
+	title = est.21.t
+	picture = GFX_news_event_069
+	desc = est.21.d
+
+	is_triggered_only = yes
+
+	#We should follow this development.
+	option = {
+		name = "We Should Do The Same"
+		trigger = {
+			NOT = {
+				is_in_faction_with = FROM
+				has_war_with = FROM
+				tag = FROM
+			}
+		}
+	}
+
+	#Let us hope their research bears fruit.
+	option = {
+		name = "Let Us Hope Their Research Bears Fruit"
+		trigger = {
+			is_in_faction_with = FROM
+			NOT = {
+				tag = FROM
+			}
+		}
+	}
+
+	#It will never amount to anything.
+	option = {
+		name = "It will never amount to anything to us"
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+
+	#We will conduct our research in secret.
+	option = {
+		name = "We Will Conduct Our Research In Secret"
+		trigger = {
+			tag = FROM
+		}
+	}
+}
+
+country_event = {
+	id = est.1
+    title = est.1.t 
+    desc = est.1.d 
+	picture = GFX_report_event_karl_selter_resigns
+
+	fire_only_once = yes 
+	
+    trigger = {
+		OR = {
+		    has_government = neutrality
+		    has_government = democratic
+		}
+		date > 1939.11.01
+	}
+	
+	mean_time_to_happen = { days = 13 }
+	
+	option = { 
+		name = est.1.a
+		EST = {
+		    set_global_flag = karl_setler_resigned
+		}
+		custom_effect_tooltip = karl_setler_resigns_tt
+	}
+}
+
+country_event = {
+	id = est.22
+	title = est.22.t
+	desc = est.22.d
+	picture = GFX_report_event_physics_lab_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = est.22.a
+		trigger = {
+			NOT = { has_dlc = "Together for Victory" }
+		}
+		ai_chance = { base = 100 }
+		add_political_power = -50
+		add_tech_bonus = {
+			name = "ships"
+			bonus = 0.5
+			uses = 1
+			category = naval_equipment
+		}
+		EST = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				name = "ships"
+				bonus = 0.5
+				uses = 1
+				category = naval_equipment
+			}
+			add_tech_bonus = {
+				name = "heavy fighters"
+				bonus = 0.5
+				uses = 1
+				category = cat_heavy_fighter
+			}
+			country_event = { days = 1 id = est.23 }
+		}
+	}
+	
+	option = {
+		name = est.22.b
+		trigger = { has_dlc = "Together for Victory" }
+		ai_chance = { base = 100 }
+		add_political_power = -50
+		if = {
+			limit = {
+				EST = {
+					OR = {
+						is_in_faction_with = FIN
+					}
+					num_tech_sharing_groups < 1
+				}
+			}
+			EST = { add_to_tech_sharing_group = EST_nordic_research }
+		}
+		if = {
+			limit = {
+				tag = FIN
+				is_in_faction_with = EST
+			}
+			FIN = { add_to_tech_sharing_group = EST_nordic_research }
+		}
+		if = {
+			limit = {
+				tag = SWE
+				is_in_faction_with = EST
+			}
+			SWE = { add_to_tech_sharing_group = EST_nordic_research }
+		}
+		if = {
+			limit = {
+				tag = NOR
+				is_in_faction_with = EST
+			}
+			NOR = { add_to_tech_sharing_group = EST_nordic_research }
+		}
+		if = {
+			limit = {
+				tag = DEN
+				is_in_faction_with = EST
+			}
+			DEN = { add_to_tech_sharing_group = EST_nordic_research }
+		}
+		EST = {
+			country_event = { days = 1 id = est.23 }
+		}
+	}
+	
+	option = {
+		name = est.22.c
+		ai_chance = {
+			base = 0
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = EST
+					value > 90
+				}
+			}
+		}
+		EST = {
+			country_event = { days = 1 id = est.24 }
+		}
+	}
+}
+
+country_event = {
+	id = est.23
+	title = est.23.t
+	desc = est.23.d
+	picture = GFX_report_event_physics_lab_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "And with this, we'll all get wiser"
+	}
+}
+
+news_event = {
+	id = est.25
+	title = est.25.t
+	desc = est.25.d
+ 
+	picture = GFX_news_event_generic_sign_treaty3
+	
+    is_triggered_only = yes
+	
+	option = {
+		name = "Estonia Can Into Nordic?"
+		trigger = {
+			NOT = {
+				TAG = EST
+			}
+		}
+	}
+
+	option = {
+		name = "Long Live Our New Alliance!"
+		trigger = { TAG = EST }
+	}
+}
